@@ -1,3 +1,13 @@
+//题目：
+//输入A,B,C,……，Z或a，b，c，……z中的任意一个数，输出如下的字母排列：
+//如输入D，输出：   A B C D C B A
+//                    A B C B A
+//     			        A B A
+//                        A
+//输入c，输出：      a b c b a
+//                     a b a
+//                       a
+
 #include <stdio.h>
 
 void print(char ch);    //打印字符函数
